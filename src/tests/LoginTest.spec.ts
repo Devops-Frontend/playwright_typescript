@@ -2,6 +2,7 @@ import { test, expect } from "@playwright/test";
 import LoginPage from "../pages/LoginPage";
 import { decrypt, encrypt } from "../utils/CryptoUtil";
 import { encryptEnvFile } from "../utils/EncryptEnvFile";
+
 test("Login Test", async ({ page }) => {
   const lp = new LoginPage(page);
   await lp.navigateToLoginPage();

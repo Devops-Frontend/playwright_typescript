@@ -1,0 +1,12 @@
+[
+  {
+    "userName": "playwrighttest@qa.com",
+    "password": "PlaywrightTest",
+    "testName": "RedTest"
+  },
+  {
+    "userName": "playwrighttest@qa.com",
+    "password": "PlaywrightTest",
+    "testName": "GreenTest"
+  }
+]
